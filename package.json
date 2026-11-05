@@ -1,0 +1,16 @@
+{
+  "name": "mint-scout",
+  "version": "0.1.0",
+  "description": "Mint Scout — paste a contract address, get a VERIFIED / NEEDS REVIEW / HIGH RISK verdict with on-chain checks and an Otari-powered plain-language explanation.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.13.0",
+    "express": "^4.21.0"
+  }
+}
