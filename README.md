@@ -66,7 +66,7 @@ Live integration tests against real Sourcify + BSC RPC endpoints. See
 ## Hackathon submission checklist
 
 - [x] Working app using Otari.ai (hosted gateway, chat completions)
-- [x] Public GitHub repo + `mint-scout-otari` branch (first Otari commit linked)
+- [ ] Public GitHub repo + `mint-scout-otari` branch (first Otari commit linked) — branch exists locally, no remote configured yet; see "Push repo to GitHub" below
 - [ ] Push repo to GitHub (needs the user's GitHub account)
 - [ ] 3–5 min demo video
 - [ ] Otari feedback (screen recording or written)
