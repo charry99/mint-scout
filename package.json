@@ -6,7 +6,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "node --test tests/check.test.mjs"
+    "test": "node --test --test-force-exit tests/check.test.mjs"
   },
   "license": "MIT",
   "dependencies": {
