@@ -46,8 +46,11 @@ graceful fallback (`AI explanation unavailable — set OTARI_AI_TOKEN`) and
 nothing else breaks. Never commit `.env` or any token (see `.gitignore`).
 
 The Otari client (`lib/otari.js`) is OpenAI-compatible:
-`POST https://api.otari.ai/v1/chat/completions`, default model
-`deepseek/deepseek-v4-pro-0813` (override with `OTARI_MODEL`).
+`POST https://otari.ai/api/v1/chat/completions` with an `Otari-Key` header,
+default model `deepseek/deepseek-v4-flash` (override with `OTARI_MODEL`).
+Verified live 2026-11-07 with the funded $20 voucher key (~$0.00005/call).
+The `api.otari.ai/v1` + Bearer wiring does NOT work (404/401 — see
+`lib/otari.js` header comment).
 
 ## Tests
 
